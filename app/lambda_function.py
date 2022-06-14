@@ -1,6 +1,6 @@
 import json
 import openai
-from variables import OPENAI_API_KEY
+from .variables import OPENAI_API_KEY
 
 
 def generate_review(api: openai, prompt: str): 
@@ -40,8 +40,6 @@ def lambda_handler(event, context):
     
     """
 
-
-    
     openai.api_key = OPENAI_API_KEY
     prompt = create_prompt_message(
         tagline=event['tagline'],
