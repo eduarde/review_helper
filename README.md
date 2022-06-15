@@ -1,9 +1,5 @@
 # reviews_helper
 
-
-# BikesInStock
-
-
 Prerequisites:
 
 1. Install python locally (ex: 3.7.3).
